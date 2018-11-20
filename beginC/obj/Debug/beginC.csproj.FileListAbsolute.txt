@@ -1,0 +1,7 @@
+E:\ASP.NET\beginC\beginC\bin\Debug\beginC.exe.config
+E:\ASP.NET\beginC\beginC\bin\Debug\beginC.exe
+E:\ASP.NET\beginC\beginC\bin\Debug\beginC.pdb
+E:\ASP.NET\beginC\beginC\obj\Debug\beginC.csprojAssemblyReference.cache
+E:\ASP.NET\beginC\beginC\obj\Debug\beginC.csproj.CoreCompileInputs.cache
+E:\ASP.NET\beginC\beginC\obj\Debug\beginC.exe
+E:\ASP.NET\beginC\beginC\obj\Debug\beginC.pdb
