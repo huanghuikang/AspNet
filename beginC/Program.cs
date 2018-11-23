@@ -30,7 +30,35 @@ namespace beginC
             Console.WriteLine("Values:{0},{1}", v1, v2);			//输出变量v1和v2
             Console.WriteLine("Refs:{0},{1}", r1.Value, r2.Value);  //输出引用类型对象的Value值
             Console.ReadLine();
-
+                        //three:调用for语句循环输出数字
+            for(int i = 0;i <= 20; i++)
+            {
+                Console.WriteLine(i.ToString());
+            }
+            Console.ReadLine();
+            //four:变量和常量
+            //数据类型有：sbyte,short,int,long,byte,ushort,uint,ulong,float,double,decimal,char
+            int myint = 100;
+            const int cint= 1200;
+            Console.WriteLine("变量：{0}", myint);
+            Console.WriteLine("常量：{0}", cint);
+            myint = 200;
+            Console.WriteLine("变量再次赋值：{0}", myint);
+            Console.ReadLine();
+            //five:
+            //装箱：将值类型隐式转换为引用类型
+            //拆箱：允许将引用类型显示转换为值类型
+            int i1 = 300;
+            Object obj = i1;
+            Console.WriteLine("装箱前：{0},装箱后{1}", i1, obj);
+            i1 = 500;
+            Object obj1 = i1;
+            Console.WriteLine("变量:{0},装箱后:{1}", i1, obj);
+            Console.ReadLine();
+            int t2 = (int)obj1;
+            Console.WriteLine("拆箱前：{0},拆箱后{1}", i1, obj1);
+            Console.ReadLine();
+            
         }
     }
 }
