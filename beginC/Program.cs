@@ -63,6 +63,100 @@ namespace beginC
             i2 += 11;
             Console.WriteLine(i2);
             Console.ReadLine();
+                        //seven:输入一个年份查是否闰年
+            Console.WriteLine("请输入一个年份：");
+            string str = Console.ReadLine();
+            int year = Int32.Parse(str);
+            bool isleapyear = ((year % 400) == 0)||((year%4 == 0)&&(( year % 100) == 0));
+            string yearno = isleapyear ? "是" : "不是";
+            Console.WriteLine("{0}年{1}闰年",year,yearno);
+            Console.ReadLine();
+            //eight:判断语句：if,switch(case后接常量)
+            const int a = 18;
+            const int b = 30;
+            const int c = 50;
+            int upnum = 0;
+            string abc = "请输入你的年龄：";
+            Console.WriteLine("请输入你的年龄：");
+            upnum = int.Parse(Console.ReadLine());
+            Console.WriteLine("{0}{1}", abc, upnum);
+            if (upnum <= a)
+            {
+                Console.WriteLine("你的年龄还小");
+            }
+            else
+            {
+                if (upnum > a && upnum <= b)
+                {
+                    Console.WriteLine("黄金时期");
+                }
+                else
+                {
+                    if (upnum > b && upnum <= c)
+                    {
+                        Console.WriteLine("还可提升");
+                    }
+                    else
+                    {
+                        Console.WriteLine("要休息了，最美西阳红");
+                    }
+                }
+            }
+            Console.ReadLine();
+                        //nine:for,while,do...while循环
+            int[] nums = new int[6] { 60, 52, 41, 753, 95, 2 };
+            //int s = 0;
+            //while (s < 6)
+            //{
+            //    Console.WriteLine("nums{0}的值为：{1}", s, nums[s]);
+            //    s++;
+            //}
+            for (int s = 0; s < 6; s++)
+            {
+                Console.WriteLine("nums{0}的值为：{1}", s, nums[s]);
+            }
+            Console.ReadLine();
+            //ten:集合：ArrayList
+            ArrayList mylist = new ArrayList();
+            mylist.Add("宝龙公司");
+            mylist.Add("C#");
+            mylist.Add("ASP");
+            mylist.Add(".NET");
+            mylist.Add("JAVA");
+            Console.WriteLine("课程列表：");
+            foreach (string listn in mylist)
+            {
+                Console.WriteLine("{0}", listn);
+            }
+            Console.ReadLine();
+            //eleven:简单判断用户是否登录成功
+            Console.WriteLine("请输入用户名：");
+            string name = Console.ReadLine();    //定义一个string变量，用来存储用户名
+            Console.WriteLine("请输入密码：");
+            string pass = Console.ReadLine();    //定义一个string变量，用来存储用户密码
+            bool boolT = (name == "abc" && pass == "123");
+            string login = boolT ? "登录成功" : "登录不成功";
+            Console.WriteLine(login);           //输出登录信息
+            Console.ReadLine();
+            //tweleve:123456的加密和解密
+            Console.Write("*****加密*****\n\n下面对密码：123456进行加密\n\n");
+            Console.Write("请输入加密的密钥：");
+            int key = Convert.ToInt32(Console.ReadLine());
+            Console.Write("\n密钥为：");
+            int bykey = 123456 ^ key;
+            Console.Write(bykey + "\n\n");
+            Console.Write("\n\n\n\n****************解密*****************\n\n请输入密钥 进行解密：   ");
+            int key1 = Convert.ToInt32(Console.ReadLine());
+            int bykey1 = bykey ^ key1;
+            if (123456 == bykey1)
+            {
+                Console.Write("\n密码{0}\n解密成功\n\n\n", key1);
+            }
+            else
+            {
+                Console.Write("\n解密失败！！！！   \n\n\n");
+            }
+            Console.ReadLine();
         }
     }
 }
