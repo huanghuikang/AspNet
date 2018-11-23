@@ -58,7 +58,11 @@ namespace beginC
             int t2 = (int)obj1;
             Console.WriteLine("拆箱前：{0},拆箱后{1}", i1, obj1);
             Console.ReadLine();
-            
+            //six:+=意义是先加后赋值
+            int i2 = 200;
+            i2 += 11;
+            Console.WriteLine(i2);
+            Console.ReadLine();
         }
     }
 }
