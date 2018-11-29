@@ -63,7 +63,7 @@ namespace beginC
             i2 += 11;
             Console.WriteLine(i2);
             Console.ReadLine();
-                        //seven:输入一个年份查是否闰年
+            //seven:输入一个年份查是否闰年
             Console.WriteLine("请输入一个年份：");
             string str = Console.ReadLine();
             int year = Int32.Parse(str);
