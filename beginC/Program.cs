@@ -138,7 +138,7 @@ namespace beginC
             string login = boolT ? "登录成功" : "登录不成功";
             Console.WriteLine(login);           //输出登录信息
             Console.ReadLine();
-            //tweleve:123456的加密和解密
+            //twelve:123456的加密和解密
             Console.Write("*****加密*****\n\n下面对密码：123456进行加密\n\n");
             Console.Write("请输入加密的密钥：");
             int key = Convert.ToInt32(Console.ReadLine());
