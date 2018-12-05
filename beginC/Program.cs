@@ -102,7 +102,7 @@ namespace beginC
                 }
             }
             Console.ReadLine();
-                        //nine:for,while,do...while循环
+            //nine:for,while,do...while循环
             int[] nums = new int[6] { 60, 52, 41, 753, 95, 2 };
             //int s = 0;
             //while (s < 6)
