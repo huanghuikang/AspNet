@@ -29,7 +29,7 @@ namespace beginC
             Console.WriteLine("Values:{0},{1}", v1, v2);			//输出变量v1和v2
             Console.WriteLine("Refs:{0},{1}", r1.Value, r2.Value);  //输出引用类型对象的Value值
             Console.ReadLine();
-                        //three:调用for语句循环输出数字
+             //three:调用for语句循环输出数字
             for(int i = 0;i <= 20; i++)
             {
                 Console.WriteLine(i.ToString());
