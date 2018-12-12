@@ -167,6 +167,7 @@ namespace beginC
             System.Console.Clear();								//清空控制台内所有字符
             System.Console.WriteLine("最后计算的结果：{0} + {1} + {2} = {3}", d, d2, d3, d + d2 + d3);	//输出计算结果.
             System.Console.ReadLine();
+            //fourteen
         }
     }
 }
