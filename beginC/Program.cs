@@ -168,6 +168,18 @@ namespace beginC
             System.Console.WriteLine("最后计算的结果：{0} + {1} + {2} = {3}", d, d2, d3, d + d2 + d3);	//输出计算结果.
             System.Console.ReadLine();
             //fourteen
+            int[] myint = new int[10];					//声明一个具有10个元素的整型数组
+            myint[0] = 0;								//向数组中添加第一个元素
+            myint[1] = 1;								//向数组中添加第二个元素
+            myint[2] = 2;								//向数组中添加第3个元素
+            myint[3] = 3;								//向数组中添加第4个元素
+            myint[4] = 4;								//向数组中添加第5个元素
+            myint[5] = 5;								//向数组中添加第6个元素
+            myint[6] = 6;								//向数组中添加第7个元素
+            myint[7] = 7;								//向数组中添加第8个元素
+            myint[8] = 8;								//向数组中添加第9个元素
+            myint[9] = 9;								//向数组中添加第10个元素
+            
         }
     }
 }
