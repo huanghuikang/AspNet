@@ -179,7 +179,11 @@ namespace beginC
             myint[7] = 7;								//向数组中添加第8个元素
             myint[8] = 8;								//向数组中添加第9个元素
             myint[9] = 9;								//向数组中添加第10个元素
-            
+            for (int i = 0; i < myint.Length; i++)		//调用for循环语句
+            {
+                Console.WriteLine("myint[{0}]的值是：{1}", i, myint[i]);	//输出结果
+            }
+            Console.ReadLine();
         }
     }
 }
