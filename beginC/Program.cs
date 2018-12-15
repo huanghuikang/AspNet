@@ -10,7 +10,7 @@ namespace beginC
     {
          class C									//创建一个类C
         {
-            public int Value = 0;						//声明一个公共int类型的变量Value
+            public int Value = 0;				//声明一个公共int类型的变量Value
         }
         static void Main(string[] args)
         {
