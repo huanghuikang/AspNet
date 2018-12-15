@@ -21,7 +21,7 @@ namespace beginC
             Console.WriteLine("btOne={0}", btOne);		//输出byte类型变量btOne
             Console.ReadLine();
             //two
-            int v1 = 0;								//声明一个int类型的变量v1，并初始化为0
+            int v1 = 0;								    //声明一个int类型的变量v1，并初始化为0
             int v2 = v1;								//声明一个int类型的变量v2，并将v1赋值给v2
             v2 = 927;									//重新将变量v2赋值为927
             C r1 = new C();								//使用new关键字创建引用对象
